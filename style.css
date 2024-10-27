@@ -26,9 +26,13 @@ h1, h2 {
   color: #000000;
 }
 
+/* "My Github Profile" text*/
 p {
   color: #000000;
+  margin-left: -600px;
+  margin-top: 50px;
 }
+
 
 footer {
   background-color: #333;
@@ -38,4 +42,16 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+/* My Github Profile button*/
+.button {
+    position: absolute;
+    top: 25%;
+    margin-left: -385px;
+    padding: 15px 32px;
 }
