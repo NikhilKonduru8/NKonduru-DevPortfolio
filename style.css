@@ -22,14 +22,27 @@ main {
   padding: 2rem;
 }
 
-h1, h2 {
+h1{
   color: #000000;
+
 }
 
+h2 {
+  margin-left: -300 px;
+  margin-top: 100px;
+}
+
+
 /* "My Github Profile" text*/
-p {
+#github-title {
   color: #000000;
   margin-left: -600px;
+  margin-top: 50px;
+}
+
+#info {
+  color: #000000;
+  margin-left: 0px;
   margin-top: 50px;
 }
 
@@ -51,7 +64,6 @@ footer {
 /* My Github Profile button*/
 .button {
     position: absolute;
-    top: 25%;
-    margin-left: -385px;
+    margin-left: -390px;
     padding: 15px 32px;
 }
