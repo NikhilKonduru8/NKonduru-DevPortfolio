@@ -1,0 +1,50 @@
+#I ran these chunks of code in Google Colab
+
+# The code below first downloads the generative ai library. After that it configures your api key that you will get from googles website. In the next step it will run a 
+test prompt using the gemini api. After this, the assebly ai library will be downloaded for audio transcriptions. In the next chunk it transcribes the audio file
+that is prompted and will then put that text as a input for the api which will then give you your answer at the end.
+
+1.  !pip install -U -q "google-generativeai>=0.7.2"
+
+2.  import google.generativeai as genai
+from google.colab import userdata
+
+GOOGLE_API_KEY=userdata.get('GOOGLE_API_KEY')
+genai.configure(api_key=GOOGLE_API_KEY)
+
+print("done")
+
+3.  import google.generativeai as genai
+
+genai.configure(api_key="Paste your own api key")
+model = genai.GenerativeModel("gemini-1.5-flash")
+response = model.generate_content("Explain how AI works")
+print(response.text)
+
+4.  pip install assemblyai
+
+5.  import assemblyai as aai
+
+aai.settings.api_key = "Paste your own assemblyai api key"
+
+
+FILE_URL = "Paste the file path of your own audio file"
+
+
+
+transcriber = aai.Transcriber()
+transcript = transcriber.transcribe(FILE_URL)
+
+if transcript.status == aai.TranscriptStatus.error:
+    print(transcript.error)
+else:
+    print(transcript.text)
+
+# transcript = str(transcript.text)
+
+6.  model = genai.GenerativeModel('models/gemini-1.5-flash')
+
+response = model.generate_content(transcript.text)
+print(response.text)
+
+
