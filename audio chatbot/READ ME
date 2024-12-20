@@ -1,6 +1,6 @@
-The code in the main.py file is a chatbot but takes mic input rather than typing on oyur keyboard.
+The code in the main.py file is a chatbot but takes mic input rather than typing on yout keyboard.
 First you talk into your mic and then it sends the audio to the google servers using the gTTS library and converts it to text.
-Then it send that to the gemini api which ouputs the text.
+Then it sends the text to the gemini api which ouputs the response.
 Lastly, it sends it back through the gTTS library and converts it into audio for the user to hear. 
 
 requirements:
@@ -12,3 +12,5 @@ pip install speech_recognition
 pip install gtts
 pip install elevenlabs
 pip install google-generativeai
+
+After installing all the libraries, you can go on to run the code in your ide, text editor, notebook of your choice. 
