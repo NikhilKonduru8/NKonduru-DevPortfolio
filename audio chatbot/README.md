@@ -1,19 +1,29 @@
-The code in the main.py file is a chatbot but takes mic input rather than typing on yout keyboard.
-First you talk into your mic and then it sends the audio to the google servers using the gTTS library and converts it to text.
-Then it sends the text to the gemini api which ouputs the response.
-Lastly, it sends it back through the gTTS library and converts it into audio for the user to hear. 
+# Mic-Enabled Chatbot Project: Converse Naturally with Python!
 
-requirements:
+This project demonstrates a simple chatbot that allows users to interact using voice input and receive audio responses. 
 
-These are the required libraries you have to download to make the code work. (you can use your command prompt in windows or terminal in linux or macos)
+**Project Functionality**
 
-pip install playsound
-pip install speech_recognition
-pip install gtts
-pip install elevenlabs
-pip install google-generativeai
+* **Workflow:**
 
-After installing all the libraries, you can go on to run the code in your ide, text editor, or notebook of your choice. 
+  ![download](https://github.com/user-attachments/assets/b6aeea98-f1d8-4627-9598-8a1a58b0d99d)
 
-Below is a visual representation of the way the proccess work in the code. 
-![Visual Representation Of The Processes](https://github.com/user-attachments/assets/13d7d19d-8321-4ed1-bc25-d5b0264281b0)
+* **Steps:**
+    1. **Speech Recognition:** Capture user audio input using the microphone.
+    2. **Text Conversion:** Convert the captured audio to text using the Google Text-to-Speech (gTTS) library.
+    3. **API Interaction:** Send the converted text to the Gemini API for processing and generating a response.
+    4. **Speech Synthesis:** Convert the API response back into audio using gTTS.
+    5. **Audio Playback:** Play the synthesized audio response to the user.
+
+**Requirements**
+
+* **Libraries:**
+    * `playsound`
+    * `speech_recognition`
+    * `gtts` 
+    * `google-generativeai`
+
+* **Installation:**
+   ```bash
+   pip install playsound speech_recognition gtts google-generativeai
+
