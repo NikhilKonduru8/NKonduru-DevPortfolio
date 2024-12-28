@@ -13,4 +13,4 @@ pip install gtts
 pip install elevenlabs
 pip install google-generativeai
 
-After installing all the libraries, you can go on to run the code in your ide, text editor, notebook of your choice. 
+After installing all the libraries, you can go on to run the code in your ide, text editor, or notebook of your choice. 
