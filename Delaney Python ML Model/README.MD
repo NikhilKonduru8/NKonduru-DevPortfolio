@@ -4,6 +4,7 @@ This project provides a machine learning model for predicting logS (aqueous solu
 
 ## <span style="color: #007bff;">Purpose</span>
 
+For example, it is how much of a substance (like sugar or salt) can mix into water and disappear.
 The model's sole function is to predict logS values based on input molecular descriptors. LogS, the logarithm of solubility, is a critical parameter in fields such as pharmaceutical research and environmental science.
 
 ## <span style="color: #28a745;">Functionality</span>
