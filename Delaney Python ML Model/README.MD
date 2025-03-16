@@ -32,3 +32,5 @@ The project provides:
 ## <span style="color: #6c757d;">Limitations</span>
 
 This model is specifically designed for logS prediction. Its applicability is limited to scenarios where logS estimation is required.
+
+DATA CREDITS: dataprofessor, https://github.com/dataprofessor
