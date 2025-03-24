@@ -1,36 +1,36 @@
-# Insight HQ - Business Intelligence Platform
+# Insight HQ - Hackathon Project
 
-This repository contains the HTML and CSS for a website showcasing "Insight HQ," a business intelligence platform designed to transform data into actionable insights.
+This repository contains the HTML and CSS for "Insight HQ," a website developed as a hackathon project. Insight HQ is a concept for a business intelligence platform aimed at transforming data into actionable insights for business leaders.
 
-## Overview
+## Project Overview
 
-Insight HQ is presented as a comprehensive tool for business leaders, offering real-time analytics, customer feedback analysis, and partner matching. The website aims to highlight these features through a clean, modern design with a focus on user experience.
+Insight HQ was created during a hackathon to address the challenge of making business data more accessible and actionable. The website showcases the core features of this platform, including real-time analytics, customer feedback analysis, and partner matching, through a modern and user-friendly interface.
 
-## Features
+## Key Features (Conceptual)
 
--   **Real-Time Analytics:** Track key performance metrics with customizable dashboards.
--   **Customer Feedback Analysis:** Gather and analyze customer reviews to improve products and services.
--   **Partner Matching:** Discover potential sponsors and partners aligned with your business goals.
--   **Responsive Design:** Ensures the website looks great on various devices.
--   **Modern UI:** Utilizes a clean, intuitive design with subtle animations for enhanced user engagement.
--   **Custom Cursor:** A unique interactive cursor for better user experience.
+-   **Real-Time Analytics:** Demonstrates how key performance metrics could be tracked via customizable dashboards.
+-   **Customer Feedback Analysis:** Illustrates the potential for gathering and analyzing customer reviews to drive improvements.
+-   **Partner Matching:** Showcases the concept of discovering relevant sponsors and partners.
+-   **Responsive Design:** Ensures the website concept is adaptable to various screen sizes, crucial for modern web applications.
+-   **Modern UI with Animations:** Uses a clean, engaging design with CSS animations to enhance the user experience.
+-   **Custom Cursor:** Includes an interactive cursor for a more engaging feel.
 
 ## Technologies Used
 
--   **HTML:** For structuring the website content.
--   **CSS:** For styling and layout, including custom properties for easy color management.
--   **Font Awesome:** For icons.
+-   **HTML:** For the website's structure and content.
+-   **CSS:** For styling and layout, including custom properties for easy theme management.
+-   **Font Awesome:** For icons to enhance visual communication.
 
 ## File Structure
 
--   `index.html`: The main HTML file containing the website structure.
--   `style.css`: The CSS file containing all the styling rules.
--   `graph.png`: An image used for the analytics preview.
--   `nikhi.jpg`, `arni.jpg`, `lalu.jpg`, `adi.jpg`: Images of the developers.
+-   `index.html`: The main HTML file containing the website's structure.
+-   `style.css`: The CSS file containing all styling rules.
+-   `graph.png`: An example image used in the analytics preview.
+-   `nikhi.jpg`, `arni.jpg`, `lalu.jpg`, `adi.jpg`: Images of the hackathon team members.
 
-## CSS Custom Properties
+## CSS Custom Properties (Variables)
 
-The CSS uses custom properties (CSS variables) for easy color and style management:
+The CSS utilizes custom properties to streamline color management and theming:
 
 ```css
 :root {
