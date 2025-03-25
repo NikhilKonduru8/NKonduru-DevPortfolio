@@ -16,7 +16,7 @@ Insight HQ offers:
 
 ## My Contributions
 
-* Using HTML and CSS I made a dynamic website showcasing the features and serving as a portfolio for the project, and also a way for business to see the features of our service, and what it has to offer.
+* Using HTML and CSS I made a dynamic website showcasing the features and serving as a portfolio for the project, and also a way for business to see the features of our service, and what it has to offer. Link To Website: https://nikhilkonduru8.github.io/BlusHacks2025/
 
 ## Features
 
