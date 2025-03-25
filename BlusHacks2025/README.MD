@@ -1,27 +1,29 @@
-Insight HQ is a comprehensive business intelligence platform conceived and developed by an ambitious team of 8th graders for a highly competitive high school hackathon in San Jose. Our project distinguished itself by securing the "Best Use of Wolfram One" award and achieving 3rd place overall, demonstrating our ability to deliver sophisticated solutions.
+# Insight HQ - Business Intelligence Platform
 
-My primary contribution to this project was the design and development of the website and dashboards. I focused on creating an intuitive and visually appealing interface for displaying key business insights. Specifically, I:
+## Awards
 
-* **Frontend Development:**
-    * Designed and implemented the user interface for the sentiment analysis and sponsorship matching dashboards using HTML, CSS, and JavaScript.
-    * Ensured a responsive design, providing a seamless user experience across various devices.
-    * I focused on making the website and dashboards user friendly and easy to understand.
-* **Sentiment Analysis Dashboard Visualization:**
-    * Integrated data visualizations to effectively communicate sentiment trends derived from customer reviews.
-    * Made it so the data was easy to understand.
-* **Sponsorship Matching Platform Interface:**
-    * Developed the interface to display potential sponsor information and relevance scores, facilitating efficient connections.
+* **Best Use of Wolfram One**
+* **3rd Place Overall** (High School Hackathon, San Jose)
 
-As a team, we also developed:
+## Overview
 
-* **Sentiment Analysis Module:**
-    * We implemented a Python-based sentiment analysis pipeline leveraging machine learning models to categorize customer feedback.
-    * We used Wolfram one to help refine the data.
-* **Sponsorship Matching Platform Logic:**
-    * We developed a ranking algorithm to assess the relevance of potential sponsors.
-    * We designed the database schema to store sponsor information.
-* **Wolfram One Integration:**
-    * We explored and implemented Wolfram One's natural language processing and data visualization capabilities to enhance the project's analytical depth.
-    * The integration of Wolfram ones capabilities was a critical portion of our project, and was the reason we won the award for best use of Wolfram one.
+This project was developed for a High School Hackathon in San Jose. We, a group of 8th graders won 3rd place against highschoolers, and created a service named Insight HQ, designed to provide companies with valuable business insights.
 
-The platform's user-friendly dashboards provide businesses with a clear, concise view of customer sentiment and potential sponsorship opportunities, empowering them to make informed, data-driven decisions. Our project showcases the power of interdisciplinary collaboration and the potential of young innovators to create impactful technology.
+Insight HQ offers:
+
+* **Sentiment Analysis:** Analyzes customer reviews to identify positive and negative feedback, presented in a dashboard.
+* **Sponsorship Matching:** A dashboard displays potential sponsors, including descriptions, offerings, and relevance scores.
+
+## My Contributions
+
+* Using HTML and CSS I made a dynamic website showcasing the features and serving as a portfolio for the project, and also a way for business to see the features of our service, and what it has to offer.
+
+## Features
+
+* **Sentiment Analysis Dashboard:**
+    * Uses a sentiment analysis ML model to process customer reviews.
+    * Displays good and bad feedback to businesses.
+* **Sponsorship Dashboard:**
+    * Shows companies willing to sponsor, with descriptions and offerings.
+    * Indicates the relevance of each sponsor.
+
