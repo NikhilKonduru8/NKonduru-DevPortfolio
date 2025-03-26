@@ -27,6 +27,7 @@ Insight HQ offers:
     * Shows companies willing to sponsor, with descriptions and offerings.
     * Indicates the relevance of each sponsor.
 
-https://github.com/NikhilKonduru8/NKonduru-DevPortfolio/blob/main/BlusHacks 3rd Place Win.png?raw=true
 
-![alt text](https://github.com/NikhilKonduru8/NKonduru-DevPortfolio/blob/main/BlusHacks 3rd Place Win.png?raw=true)
+
+
+
