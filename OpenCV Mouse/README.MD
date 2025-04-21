@@ -19,13 +19,5 @@ Here's a simplified look at how the script does its job:
 -   **Distance Matters:** Keep your hand at a reasonable distance from the camera.
 -   **Computer Power:** The script needs some computer power to run smoothly.
 
-## What Else Could It Do?
-
-This is just a simple example. With more work, it could:
-
--   Do different clicks (like right-click).
--   Scroll up and down.
--   Be used in games or presentations.
--   Help people who find regular mice hard to use.
 
 This script shows a basic way to use hand movements to control a computer.
