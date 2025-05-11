@@ -28,4 +28,4 @@ The script expects a video file named `aditya.mov` to be present in the same dir
 
 ## Output
 
-The script prints a single line to the console indicating the main emotion detected throughout the video. For example:
+The script prints a single line to the console indicating the main emotion detected throughout the video.
